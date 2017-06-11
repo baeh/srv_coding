@@ -3,5 +3,5 @@ project(srv_coding)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp network.cpp network.h)
 add_executable(srv_coding ${SOURCE_FILES})
